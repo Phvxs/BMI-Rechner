@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>BMI - Rechner</h1>
+            <p>Der BMI (Body Mass Index) ist eine Pseudowissenschaftliche Möglichkeit einen Zusammenhang zwischen Körpergröße und Gewicht in Relation zu bringen und heuchelt eine Verbindung zu einem gesunden Lebenstil vor.</p>
+        </section>
+
+    <form action="javascript:BMI()">
+        <label id="inpgross" for="gross">Diggi wie groß bist du? </label>
+        <input type="number" placeholder="Größe in Meter bitte" id="gross" min="0" step="0.01">
+
+        <label id="inpgewicht" for="gewicht">Sachma was wiegst du? </label>
+        <input type="number" placeholder="Gewicht in Kilogramm!" id="gewicht" min="0" step="0.01">
+
+        <button id="btn" type="submit">Hier für nutzloses Ergebnis klicken!</button>
+
+         <span id="result"></span>
+    </form>
+    </main>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

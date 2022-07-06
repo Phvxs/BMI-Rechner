@@ -1,0 +1,100 @@
+body{
+    background-color: bisque;
+    display:flex;
+    justify-content: center;
+
+}
+
+main{
+    display:flex;
+    flex-direction:column;
+}
+
+section{
+    margin-top:30px;
+}
+
+h1, p{
+    text-align: center;
+}
+
+p{
+    font-size:3rem;
+    margin:5px;
+    padding-left: 15px;
+    padding-right:15px;
+}
+
+form{
+    display:flex;
+    justify-content: center;
+    width: 80vw;
+    height: 20vh;
+    margin-top:50px;
+    
+}
+
+input{
+    width: 12rem;
+    height: 2rem;
+    background-color:rgb(134, 79, 79);
+    color:white;
+    text-align: end;
+}
+
+input:hover{
+    background-color: aquamarine;
+}
+
+input::placeholder{
+    color:white;
+    font-weight: bold;
+}
+
+button{
+    width:18rem;
+    height: 4rem;
+    padding:7px;
+    border-radius:15px;
+    padding-top:12px;
+    padding-bottom:12px;
+    background-color: aqua;
+    position:absolute;
+    top: 52vh;
+    left:40vw;    
+}
+
+button:hover{
+    background-color: rgb(160, 71, 71);
+    font-size: 1rem;
+}
+
+span{
+    font-size:10rem;
+}
+
+#gross{
+    position:absolute;
+    top:42vh;
+    left: 30vw;
+}
+
+#gewicht{
+    position:absolute;
+    top:42vh;
+    left:55vw;
+}
+
+#inpgross{
+    position:absolute;
+    top:35vh;
+    left:28vw;
+    font-size:2rem;
+}
+
+#inpgewicht{
+    position:absolute;
+    top:35vh;
+    left: 52vw;
+    font-size:2rem;
+}
