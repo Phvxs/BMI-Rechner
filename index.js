@@ -11,6 +11,6 @@ function BMI(){
 
     
 
-    document.querySelector('#result').innerHTML = "Warum auch immer du das wissen willst, dein BMI ist: " + bmi;
+    document.querySelector('#result').innerHTML = "Dein BMI ist: " + bmi;
 
 }
